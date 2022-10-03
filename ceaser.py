@@ -30,8 +30,8 @@ try:
 	#code for decryption
 	elif(mode=='d'):
 		shift=int(input('enter the number by which digits should be shifted '))
-		plain_text=input("enter text for encryption ")
-		for i in plain_text:
+		cipher_text=input("enter text for encryption ")
+		for i in cipher_text:
 			if(i.isupper()):
 				tmp=ut_n[i]-shift
 				tmp=tmp%26
